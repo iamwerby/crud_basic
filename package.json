@@ -1,0 +1,31 @@
+{
+  "name": "crud_basic",
+  "version": "1.0.0",
+  "description": "basic crud API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iamwerby/crud_basic.git"
+  },
+  "keywords": [
+    "crud"
+  ],
+  "author": "iamwerby",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iamwerby/crud_basic/issues"
+  },
+  "homepage": "https://github.com/iamwerby/crud_basic#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongodb": "^3.2.7"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
